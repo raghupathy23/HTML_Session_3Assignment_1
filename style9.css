@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#container {
+	width: 960px;
+	margin: 0 auto;
+}
+#committee { 
+	position: absolute;
+	top: 330px;
+	left: 550px;
+	width: 500px;
+}
+#committee .outer {
+	border: 1px solid #000000; 
+	width: 506px; 
+	height: 169px; 
+	margin: 0 auto;
+}
+.committee-head {
+	border: 1px solid #000000; 
+	text-align: center; 
+	font-weight: bold; 
+	margin: 2px;
+}
+.committee-details {
+	border: 1px solid #000000; 
+	display:inline; 
+	float: left; 
+	width: 303px; 
+	margin: 2px;
+}
+.committee-details.chief { font-weight: bold;}
+.committee-details.alt { width: 191px; }		

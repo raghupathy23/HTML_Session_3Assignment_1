@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Styles</title>
+	<link rel="stylesheet" href="style9.css" />
+	<style>
+		#embedded { 
+			position: absolute;
+			top: 220px;
+			left: 550px;
+			width: 500px;
+		}
+		.outer {
+			border: 1px solid #000000; 
+			width: 406px; 
+			height: 74px; 
+			margin: 0 auto;
+		}
+		.member-head {
+			border: 1px solid #000000; 
+			text-align: center; 
+			font-weight: bold; 
+			margin: 2px;
+		}
+		.member-details {
+			border: 1px solid #000000; 
+			display:inline; 
+			float: left; 
+			width: 197px; 
+			margin: 2px;
+		}
+	</style>
+</head>
+<body>
+<div id="container">
+	<h1 style="text-align: center;">2008 OFFICERS</h1>
+
+	<!-- INLINE STYLES-->
+	<div style="border: 1px solid #000000; width: 609px; height: 120px; margin: 0 auto; margin-top: 20px;">
+	<div style="border: 1px solid #000000; text-align: center; font-weight: bold; margin: 2px;">Current Officers</div>
+	<div style="border: 1px solid #000000; display:inline; float: left; width: 197px; margin: 2px;">President</div>
+	<div style="border: 1px solid #000000; display:inline; float: left; width: 197px; margin: 2px;">Jesse Blair</div>
+	<div style="border: 1px solid #000000; display:inline; float: left; width: 197px; margin: 2px;">555-7189</div>
+	<div style="border: 1px solid #000000; display:inline; float: left; width: 197px; margin: 2px;">Vice-President</div>
+	<div style="border: 1px solid #000000; display:inline; float: left; width: 197px; margin: 2px;">Frank Smythe</div>
+	<div style="border: 1px solid #000000; display:inline; float: left; width: 197px; margin: 2px;">505-555-3576</div>
+	<div style="border: 1px solid #000000; display:inline; float: left; width: 197px; margin: 2px;">Secretary</div>
+	<div style="border: 1px solid #000000; display:inline; float: left; width: 197px; margin: 2px;">Jean Darff</div>
+	<div style="border: 1px solid #000000; display:inline; float: left; width: 197px; margin: 2px;">555-5415</div>
+	<div style="border: 1px solid #000000; display:inline; float: left; width: 197px; margin: 2px;">Treasurer</div>
+	<div style="border: 1px solid #000000; display:inline; float: left; width: 197px; margin: 2px;">Linda Carter</div>
+	<div style="border: 1px solid #000000; display:inline; float: left; width: 197px; margin: 2px;">555-9653</div>
+	
+	<!--EMBEDDED STYLES-->
+	<div id="embedded">
+		<div class="outer">
+			<div class="member-head">Board Members at Large</div>
+			<div class="member-details">Dick Wilson</div>
+			<div class="member-details">555-1982</div>
+			<div class="member-details">Jan Davis</div>
+			<div class="member-details">555-3530</div>
+		</div>
+	</div>
+
+	<!--EXTERNAL STYLES-->
+	<div id="committee">
+		<div class="outer">
+			<div class="committee-head">Calling Committee</div>
+			<div class="committee-details chief">Chairman: Harry</div>
+			<div class="committee-details chief alt">555-1982</div>
+			<div class="committee-details">Jan Davis</div>
+			<div class="committee-details alt">555-3530</div>
+			<div class="committee-details">Dick Wilson</div>
+			<div class="committee-details alt">555-1982</div>
+			<div class="committee-details">Jan Davis</div>
+			<div class="committee-details alt">555-3530</div>	
+			<div class="committee-details">Jan Davis</div>
+			<div class="committee-details alt">555-3530</div>
+			<div class="committee-details">Dick Wilson</div>
+			<div class="committee-details alt">555-1982</div>		
+		</div>	
+	</div>
+</div>
+</body>
+</html>
